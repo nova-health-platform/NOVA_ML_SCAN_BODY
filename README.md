@@ -1,17 +1,18 @@
 <div align="center">
+  <img src=".github/assets/banner.png" alt="NOVA_ML_SCAN_BODY banner" width="100%" />
 
-  <h1>NOVA ML Scan Body</h1>
+  <h1>NOVA_ML_SCAN_BODY</h1>
 
   <p>
-    Module de vision par ordinateur pour le check-up dermatologique de la plateforme santé NOVA
+    Computer vision module for the dermatological check-up feature of the NOVA health platform.
   </p>
 
 <p>
-  <a href="https://github.com/BaditSad/NOVA_ML_SCAN_BODY/commits/main">
-    <img src="https://img.shields.io/github/last-commit/BaditSad/NOVA_ML_SCAN_BODY" alt="last update" />
+  <a href="https://github.com/nova-health-platform/NOVA_ML_SCAN_BODY/commits/main">
+    <img src="https://img.shields.io/github/last-commit/nova-health-platform/NOVA_ML_SCAN_BODY" alt="last update" />
   </a>
-  <a href="https://github.com/BaditSad/NOVA_ML_SCAN_BODY">
-    <img src="https://img.shields.io/github/languages/top/BaditSad/NOVA_ML_SCAN_BODY" alt="top language" />
+  <a href="https://github.com/nova-health-platform/NOVA_ML_SCAN_BODY">
+    <img src="https://img.shields.io/github/languages/top/nova-health-platform/NOVA_ML_SCAN_BODY" alt="top language" />
   </a>
 </p>
 
@@ -19,51 +20,52 @@
 
 <br />
 
-# Table des matières
+## :notebook_with_decorative_cover: Table of Contents
 
-- [À propos](#à-propos)
-  * [État du projet](#état-du-projet)
-  * [Stack technique](#stack-technique)
-- [Démarrage](#démarrage)
-- [Dépôts liés](#dépôts-liés)
-- [Contact](#contact)
+- [About](#star2-about)
+  * [Project Status](#construction-project-status)
+  * [Tech Stack](#space_invader-tech-stack)
+- [Getting Started](#toolbox-getting-started)
+- [Related Repositories](#link-related-repositories)
+- [Contact](#handshake-contact)
 
-## À propos
+## :star2: About
 
-Ce dépôt porte le module de scan corporel de NOVA, pensé pour analyser des photos de peau via de la vision par ordinateur et aider à repérer des zones à surveiller dans le cadre du check-up dermatologique proposé par la plateforme.
+This repository holds NOVA's body scan module, intended to analyze skin photos through computer vision and help flag areas to monitor as part of the platform's dermatological check-up.
 
-### État du projet
+### :construction: Project Status
 
-Le dépôt contient pour l'instant uniquement le squelette du service : `server.py`, `test.py` et le notebook d'entraînement `model_scan_body.ipynb` sont présents mais vides. Le développement du modèle et de l'API n'a pas encore démarré, ce dépôt sert de réservation d'espace pour ce module au sein de l'architecture NOVA.
+The repository currently contains only the skeleton of the service: `server.py`, `test.py` and the training notebook `model_scan_body.ipynb` exist but are empty. Model and API development has not started yet, this repository reserves the space for this module within the NOVA architecture.
 
-### Stack technique
+### :space_invader: Tech Stack
 
 <details>
-  <summary>Prévu</summary>
+  <summary>Planned</summary>
   <ul>
     <li><a href="https://www.python.org/">Python</a></li>
-    <li><a href="https://flask.palletsprojects.com/">Flask</a> (à confirmer)</li>
-    <li>Vision par ordinateur (modèle à définir)</li>
+    <li><a href="https://flask.palletsprojects.com/">Flask</a> (to be confirmed)</li>
+    <li>Computer vision (model to be defined)</li>
   </ul>
 </details>
 
-## Démarrage
+## :toolbox: Getting Started
 
-Rien à exécuter pour le moment, le service n'a pas encore d'implémentation.
+Nothing to run yet, the service has no implementation.
 
-## Dépôts liés
+## :link: Related Repositories
 
-NOVA est découpé en plusieurs services indépendants :
+NOVA is split into several independent services:
 
-- [NOVA_WEB](https://github.com/BaditSad/NOVA_WEB) : frontend web de la plateforme
-- [NOVA_API](https://github.com/BaditSad/NOVA_API) : API centrale qui orchestre les appels aux modèles
-- [NOVA_DB](https://github.com/BaditSad/NOVA_DB) : base de données métier
-- [NOVA_LOGS_DB](https://github.com/BaditSad/NOVA_LOGS_DB) : journalisation des analyses
-- [NOVA_ML_ANALYSIS](https://github.com/BaditSad/NOVA_ML_ANALYSIS) : module d'analyse des symptômes
-- [NOVA_ML_PREPROD](https://github.com/BaditSad/NOVA_ML_PREPROD) : environnement de préproduction des modèles
-- [NOVA_ML_MENTAL_HEALTH](https://github.com/BaditSad/NOVA_ML_MENTAL_HEALTH) : module de suivi psychologique
+- [NOVA_WEB](https://github.com/nova-health-platform/NOVA_WEB): web frontend of the platform
+- [NOVA_API](https://github.com/nova-health-platform/NOVA_API): central API that orchestrates calls to the models
+- [NOVA_DB](https://github.com/nova-health-platform/NOVA_DB): business database
+- [NOVA_LOGS_DB](https://github.com/nova-health-platform/NOVA_LOGS_DB): analysis log storage
+- [NOVA_ML_ANALYSIS](https://github.com/nova-health-platform/NOVA_ML_ANALYSIS): symptom analysis module
+- [NOVA_ML_PREPROD](https://github.com/nova-health-platform/NOVA_ML_PREPROD): model staging environment
+- [NOVA_ML_MENTAL_HEALTH](https://github.com/nova-health-platform/NOVA_ML_MENTAL_HEALTH): psychological monitoring module
+- [NOVA-CORE](https://github.com/nova-health-platform/NOVA-CORE): architecture overview and local orchestration for the whole platform
 
-## Contact
+## :handshake: Contact
 
 Brieuc Dumortier
 
